@@ -40,6 +40,9 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 - Baseline model for gold forecasting implemented.
 - External data sources (e.g. Kaggle) reviewed.
 - Early preprocessing and EDA completed.
+- Hypothesis testing for distribution similarities between time-series.
+- Review of modern forecasting approaches to select model.
+- MVP and project-vision models selection.
 
 
 # Weekly commitments
@@ -47,9 +50,8 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 ## Individual contribution of each participant
 
 - **Vladimir Toporkov** - Wrote second report, created the initial HTML structure for the frontend and outlined the basic CSS classes for future styling. Implemented header section. [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/f444cf51d3944f5d30b932c8e054c428f65f0da2/frontend)
-- **Farit Sharafutdinov** -  Made justification of the choice of indicators and distribution of the Russian and American markets 
-    (showed minor statistical differences in a short period, according to Kolmogorov-Smirnov). [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/b2c4c218fd0ed2093aadd709913edf37852d4668/ml/reports)
-- **Ilya Grigorev** - Baseline model implemented, selected model for MVP, did an analysis of the characteristics of the time series. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/93ce41f1691ca2afeca3f958e92c372c776c19fb/ml/notebooks)
+- **Farit Sharafutdinov** -  Made justifications of [the choice of indicators](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/indicators_research.pdf) and [distribution of the Russian and American markets similarities](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/market_research.pdf) (showed minor statistical differences in a short period, according to Kolmogorov-Smirnov). 
+- **Ilya Grigorev** - Baseline model [implemented](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/notebooks/baseline_model.json), [selected a model](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/Literature%20Review.pdf) for MVP, continued the analysis of the characteristics of the gold price time series ([Link to the notebook](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/93ce41f1691ca2afeca3f958e92c372c776c19fb/ml/notebooks)).
 - **Rail Sharipov** - 
 - **Askar Kadyrgulov** - Created Kanban board [Kanban board](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/refs/heads/main/Assets/kanban.png). Implemented some endpoints.
 - **Nikita Solomennikov** - Created the first version of the design in Figma. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/509f6572b024702642f3b48c39dac67211d82f0c/Assets) and [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=QLLxiA6znFkthbYE-0)
