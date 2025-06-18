@@ -53,7 +53,7 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 - **Farit Sharafutdinov** -  Made justifications of [the choice of indicators](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/indicators_research.pdf) and [distribution of the Russian and American markets similarities](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/market_research.pdf) (showed minor statistical differences in a short period, according to Kolmogorov-Smirnov). 
 - **Ilya Grigorev** - Baseline model [implemented](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/notebooks/baseline_model.json), [selected a model](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/dev/ml/reports/Literature%20Review.pdf) for MVP, continued the analysis of the characteristics of the gold price time series ([Link to the notebook](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/93ce41f1691ca2afeca3f958e92c372c776c19fb/ml/notebooks)).
 - **Rail Sharipov** - 
-- **Askar Kadyrgulov** - Created [Kanban board](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/refs/heads/main/Assets/kanban.png). Implemented some endpoints.
+- **Askar Kadyrgulov** - Created [Kanban board](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/refs/heads/main/Assets/kanban.png). [Implemented some endpoints](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/aa41ce1ac6947e8f21b577a14ec68693bf8996c3/backend).
 - **Nikita Solomennikov** - Created the first version of the design in Figma. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/509f6572b024702642f3b48c39dac67211d82f0c/Assets) and [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=QLLxiA6znFkthbYE-0)
 
 ## Plan for Next Week
@@ -68,5 +68,5 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [✓] In working condition.
+- [✓] Run via docker-compose (or another alternative described in the `README.md`).
