@@ -29,7 +29,8 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 
 ### Backend
 
-*...*
+- Possible API endpoints written.
+- API structure set.
 
 ### ML
 
@@ -41,7 +42,8 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 ## Individual contribution of each participant
 
 - **Vladimir Toporkov** - Wrote second report, created the initial HTML structure for the frontend and outlined the basic CSS classes for future styling. Implemented header section. [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/f444cf51d3944f5d30b932c8e054c428f65f0da2/frontend)
-- **Farit Sharafutdinov** -  
+- **Farit Sharafutdinov** -  Made justification of the choice of indicators and distribution of the Russian and American markets 
+    (showed minor statistical differences in a short period, according to Kolmogorov-Smirnov). [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/b2c4c218fd0ed2093aadd709913edf37852d4668/ml/reports)
 - **Ilya Grigorev** - Baseline model implemented, selected model for MVP, did an analysis of the characteristics of the time series. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/93ce41f1691ca2afeca3f958e92c372c776c19fb/ml/notebooks)
 - **Rail Sharipov** - 
 - **Askar Kadyrgulov** - 
@@ -55,7 +57,6 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 - Select features for long-term forecast: analyze available datasets and select relevant features that impact long-term trends.
 - Deploy the first version of the model: package the current machine learning model and deploy it
 - Finish with feature selection fot short-term forecast:  finalize the preprocessing pipeline for short-term prediction.
-- 
 
 ## Confirmation of the code's operability
 
