@@ -59,7 +59,7 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 ## Plan for Next Week
 
 - Create UI-kit: start working with animations and color namings.
-- Finish FHD frontend part: completed main section and implement UI-kit.
+- Finish FHD frontend part: complete main section and implement UI-kit.
 - Implement API: integrate the backend endpoints with the frontend
 - Select features for long-term forecast: analyze available datasets and select relevant features that impact long-term trends.
 - Deploy the first version of the model: package the current machine learning model and deploy it
