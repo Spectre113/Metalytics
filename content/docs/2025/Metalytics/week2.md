@@ -34,7 +34,12 @@ Based on early findings, the team decided to priotize short-term forecasting of 
 
 ### ML
 
-*...*
+- Relevant datasets identified and collected.
+- Indicators selected and justified (incl. volatility, market filters).
+- Time series properties analyzed.
+- Baseline model for gold forecasting implemented.
+- External data sources (e.g. Kaggle) reviewed.
+- Early preprocessing and EDA completed.
 
 
 # Weekly commitments
@@ -46,7 +51,7 @@ Based on early findings, the team decided to priotize short-term forecasting of 
     (showed minor statistical differences in a short period, according to Kolmogorov-Smirnov). [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/b2c4c218fd0ed2093aadd709913edf37852d4668/ml/reports)
 - **Ilya Grigorev** - Baseline model implemented, selected model for MVP, did an analysis of the characteristics of the time series. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/93ce41f1691ca2afeca3f958e92c372c776c19fb/ml/notebooks)
 - **Rail Sharipov** - 
-- **Askar Kadyrgulov** - 
+- **Askar Kadyrgulov** - Created Kanban board [Kanban board](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/refs/heads/main/Assets/kanban.png). Implemented some endpoints.
 - **Nikita Solomennikov** - Created the first version of the design in Figma. [Link to the commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/509f6572b024702642f3b48c39dac67211d82f0c/Assets) and [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=QLLxiA6znFkthbYE-0)
 
 ## Plan for Next Week
