@@ -20,17 +20,17 @@ The following features are developed for the MVP model:
 
 **Link to the training code**: <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/forecasting_models.py">link</a>
 
-The presented solution is a baseline considered to be compared with the further model, as well as to provide the initial machine learning part structure for the API development.
+The presented solution is a baseline model considered to be compared with the further model (LSTM, initial design present in <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/forecasting_models.py">script</a>), as well as to provide the machine learning part structure for the API development.
 
-The model choice is based on the literature suggesting boosting models as the perspective solutions of the classical machine learning. To train this model, the american futures gold dataset was used, the justifications for this step are proposed in the following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/reports/market_research.pdf">report</a>. The dataset contains information about open, close, high, and low prices as well as volume of trade at hourly rate. Moreover, additional features are <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/reports/indicators_research.pdf">proposed</a> to enchance quality of the results. Finally, the model takes into account a few lagged historical prices to make new predictions.
+The model choice is based on the literature suggesting boosting models as baselines. To train this model, the american futures gold <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/data">dataset</a> was used, the justifications for this step are proposed in the following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/reports/market_research.pdf">report</a>. The dataset contains information about open, close, high, and low prices as well as volume of trade at hourly rate. Moreover, additional features are <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/reports/indicators_research.pdf">proposed</a> to enchance quality of the results. Finally, the model takes into account a few lagged historical prices to make new predictions because the statistical <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/notebooks/01_filter_design.ipynb">analysis</a> demonstrated small correlation.
 
-The forecasting process for the baseline model was set up as follows: the baseline forecasting models for key feature attributes (`High`, `Low`, and `Volume`) were selected to produce forecast for the next timestamp. Based on these forecasts, the indicators are computed, and the target baseline model predicts the output value. Then, this value is set as the past observation, and the next iteration happens. This <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/forecasting_models.py">file</a> contains all baseline models codes for training and producing forecasts.
+The forecasting process for the baseline model was set up as follows: the baseline forecasting models for key feature attributes (`High`, `Low`, and `Volume`) were selected to produce forecast for the next timestamp. Based on these forecasts, the indicators are computed, and the target baseline model predicts the output value. Then, this value is set as the past observation, and the next iteration happens. The following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/forecasting_models.py">file</a> contains all baseline models codes for training and producing forecasts.
 
 To facilitate this process by decoupling the behavior of each model from the main logic, the following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/forecasting_framework.py">framework</a> was developed.
 
 **Links to the initial model artifacts**:
 
-The baseline models were trained and dumped as files for further forecasts in the following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/baseline_model">folder</a>.
+The baseline models were trained and dumped as files for further forecasts in the following <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/baseline_model">folder</a>. The framework allows to load the dumped models avoiding the need of training. The example of use is presented in the <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/ml/client.py">file</a>.
 
 ## Internal demo
 
@@ -42,7 +42,7 @@ The baseline models were trained and dumped as files for further forecasts in th
 
 - **Vladimir Toporkov** - ...
 - **Farit Sharafutdinov** - ...
-- **Ilya Grigorev** - designed baseline forecasting models for key features and updated baseline model with support of these features (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/7356fb94522938407f390e294bf50f84a15ded49">commit</a>) as well as developed a framework to facilitate creation and deployment of new forecasting models (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/b848e9bd2ea28e264edbba749210bda28a73ef40">commit</a>).
+- **Ilya Grigorev** - designed baseline forecasting models for key features and updated the target baseline model with the support of these features (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/7356fb94522938407f390e294bf50f84a15ded49">commit</a>) as well as developed a framework to facilitate creation and deployment of new forecasting models (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/b848e9bd2ea28e264edbba749210bda28a73ef40">commit</a>).
 - **Rail Sharipov** - ...
 - **Askar Kadyrgulov** - ...
 - **Nikita Solomennikov** - ...
@@ -50,7 +50,7 @@ The baseline models were trained and dumped as files for further forecasts in th
 ## Plan for Next Week
 
 1. Enhance the LSTM model for further comparison.
-2. Add hyperparameter tuning of the LSTM model.
+2. Add hyperparameter tuning for the LSTM model.
 3. Train and deploy the LSTM model.
 4. Possibly, research and design dataset filter.
 
