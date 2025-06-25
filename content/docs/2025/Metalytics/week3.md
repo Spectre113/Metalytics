@@ -58,6 +58,9 @@ The baseline models were trained and dumped as files for further forecasts in th
 - Update backend to return timestamps in ISO 8601.
 - Clean up interval options in UI.
 
+## Error handlings
+Basic error handling for API failures was implemented on both frontend and backend.
+
 # Weekly commitments
 
 ## Individual contribution of each participant
@@ -65,9 +68,9 @@ The baseline models were trained and dumped as files for further forecasts in th
 - **Vladimir Toporkov** - Made [header and main sections](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/3540f9a79f2cce1781ab4f931692ca8574a9c312/frontend) with graph implementation for [historical and forecast cases]().
 - **Farit Sharafutdinov** - Made LSTM forecasting model design and implementation. [Link](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/4e6fa22640fd8c8cee123fb52938059159d1621d/ml/forecasting_models.py)
 - **Ilya Grigorev** - designed baseline forecasting models for key features and updated the target baseline model with the support of these features (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/7356fb94522938407f390e294bf50f84a15ded49">commit</a>) as well as developed a framework to facilitate creation and deployment of new forecasting models (<a href="https://github.com/IU-Capstone-Project-2025/Metalytics/pull/26/commits/b848e9bd2ea28e264edbba749210bda28a73ef40">commit</a>).
-- **Rail Sharipov** - ...
+- **Rail Sharipov** - [Train model](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/d24f7667d5a28c463f6ebce7ccdfcf94021beaf3).
 - **Askar Kadyrgulov** - created API for [historical price](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/3edc3bbabe7fec31738520d27078d2d7c12d4532/backend) and [predicting price](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/9ba59fc15879790e36e00bb3519e45e9236bce1d/backend).
-- **Nikita Solomennikov** - made UI-kit in figma and updated main interface. [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=MYuHCdiiNLfEbW31-0).
+- **Nikita Solomennikov** - made UI-kit in [figma and updated main interface](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/a3da817ab1e998cf99ee513882a58d1052a0ce49/Assets). [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=MYuHCdiiNLfEbW31-0).
 
 ## Plan for Next Week
 
