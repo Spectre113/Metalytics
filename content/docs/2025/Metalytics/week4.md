@@ -84,7 +84,7 @@ The team vibe is positive and collaborative. Everyone feels heard and motivated 
 - **Farit Sharafutdinov** -  Added multivariate regression and time-based features to LSTM. [Commit link](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/0814ab63b24b23ce95055ed8b84202a9e9b3913e/ml/forecasting_models.py).
 - **Ilya Grigorev** - [Wrote model evaluation report](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/6311a671ca1baf7a37ca58a880782bee760606d8/ml/reports/Model_Evaluation_Report.pdf), added [hyperparameter tuning](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/9000cfe3991593ddfb8077ce4da19e382a90f8c5/ml/tuning_models.py) and [evaluation with cross-validation functionality](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/e90667180f4b1d7ad7bc7040fbdf19027a076d38/ml).
 - **Rail Sharipov** - 
-- **Askar Kadyrgulov** - [Deployed the project](http://89.223.121.67:3000/) and updated backend to work with LSTM.
+- **Askar Kadyrgulov** - [Deployed the project](http://89.223.121.67:3000/) and updated [backend to work with LSTM](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/f91dac1b0df03919a4b8188b04da08dbbe7e2e53/backend).
 -  **Nikita Solomennikov** - Added [additional screen resolutions](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/6fd29df97c1c60fdd5f093f375d784f1981ff2b3/Assets/Metalytics.fig) in figma design. [Link to figma](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=0-1&p=f&t=MYuHCdiiNLfEbW31-0).
 
 ## Plan for Next Week
