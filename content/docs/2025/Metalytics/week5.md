@@ -100,18 +100,18 @@ After analyzing feedback from three independent users, the following key conclus
 
 ### Implemented features based on feedback
 
-Taking into account the user feedback, the following was done:
+Taking into account the user feedback, the following improvements were made:
 - LSTM model improved.
-- Interface updated: now silver and zinc are shown, button for prediction for silver and zinc is disabled.
-- The database is configured.
-- All buttons are now clickable, no unused buttons, they either disabled, either workable. 
+- Interface updated: now silver and zinc data are shown; buttons for predictions on silver and zinc are disabled when not available.
+- The database is properly configured.
+- All buttons are now either clickable or disabled; no unused or confusing buttons remain.
 
 ### Performance & Stability
 
 **Frontend and backend metrics:**
-- Website availability: users can easily go to website using link.
-- Interface: people can select metals they want, investigate the graph either historical, either predicted, watch parsed news.
-- Backend: users can see dynamic in graph (Historical prices will update automatically, predictions will be updating dinamically), they see news updates.
+- Website availability: users can easily access the website via the provided link.
+- Interface: users can select metals of interest, explore both historical and predicted graphs, and view parsed news.
+- Backend: users see dynamic graphs where historical prices update automatically, predictions update dynamically, and news updates are reflected timely.
 
 ### Documentation
 
