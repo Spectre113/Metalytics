@@ -15,6 +15,8 @@ During this week team conducted 3 sessions with potential neutral users to get o
 4. Есть ли что-то, что вызвало трудности или осталось непонятным?
 5. Что бы вы улучшили в интерфейсе или функциональности?
 
+**Below are the quotes!!!**
+
 ---
 
 #### **Dmitry Ivanov (Experienced investor):**
@@ -125,7 +127,21 @@ Taking into account the user feedback, the following improvements were made:
 
 ## Individual contribution of each participant
 
-*...*
+From Friday to Monday:
+- **Vladimir Toporkov** - 
+- **Farit Sharafutdinov** -  
+- **Ilya Grigorev** - 
+- **Rail Sharipov** - 
+- **Askar Kadyrgulov** - 
+-  **Nikita Solomennikov** -
+
+From Monday to Wednesday:
+- **Vladimir Toporkov** - 
+- **Farit Sharafutdinov** -  
+- **Ilya Grigorev** - 
+- **Rail Sharipov** - 
+- **Askar Kadyrgulov** - 
+-  **Nikita Solomennikov** -
 
 ## Plan for Next Week
 
