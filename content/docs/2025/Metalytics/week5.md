@@ -8,7 +8,6 @@ title: "Week #5"
 
 ### Sessions
 
-*Conduct at least three sessions with potential users, describe detailed user reviews here (potential users should NOT be your team members).*
 During this week team conducted 3 sessions with potential neutral users to get objective observations. The following questions in telegram were asked:
 1. Насколько понятным для вас был интерфейс?
 2. Насколько удобно было пользоваться сервисом в целом?
