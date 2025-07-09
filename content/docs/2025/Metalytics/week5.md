@@ -116,7 +116,9 @@ Taking into account the user feedback, the following improvements were made:
 - Interface: users can select metals of interest, explore both historical and predicted graphs, and view parsed news.
 - Backend: users see dynamic graphs where historical prices update automatically, predictions update dynamically, and news updates are reflected timely.
 
-**Ml metrics:**
+**ML metrics**
+
+The following metrics were used: mean squared error, mean absolute error, and the mean absolute percentage error. The first metric captures significant errors of the predicted values, while the second metric identifies the absolute error values. Finally, the last metric can be used to evaluate accuracy of a model.
 
 ### Documentation
 
@@ -128,9 +130,10 @@ Taking into account the user feedback, the following improvements were made:
   - indicators_research.pdf - Technical indicators
   - feature selection.pdf - Feature engineering
   - Model_Evaluation_Report.pdf - Performance validation
+  - Model_Refinement_Report.pdf - Performance improvement
 
 ### 2. **Interactive Analysis Documentation**
-- **Location**: `ml/notebooks/
+- **Location**: `ml/notebooks/`
 - **Purpose**: Reproducible analytical workflows
   - Data visualization and baseline models
   - Time series analysis
@@ -152,7 +155,11 @@ Taking into account the user feedback, the following improvements were made:
 
 ### ML Model Refinement
 
-*If applicable: Describe the process of improving the quality of your ML model, how you managed to achieve this and how you plan to improve it further.*
+Firstly, the LSTM model was analyzed on output and input features. The input features were enriched by adding periodic temporal data related to day of the week, day of the month, and season of the year. The output features were limited to close, high, and low prices as well as volume.
+
+On top of that, as proposed in the relevant literature, the Savitzky-Golay filter was added in the dataset preparation part. This procedure improved the results of both baseline and LSTM models.
+
+During the next week, we plan to explore a new model in place of LSTM to find a better fit for the datasets. In addition, extra features can be explored.
 
 # Weekly commitments
 
