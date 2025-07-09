@@ -120,7 +120,35 @@ Taking into account the user feedback, the following improvements were made:
 
 ### Documentation
 
-*Describe what types of documentation you have in your project, and why exactly are they?*
+### 1. **Technical Research Documentation**
+- **Location**: `ml/reports/`
+- **Purpose**: Academic foundation, methodology, and validation
+  - Literature Review.pdf - Research foundation
+  - market_research.pdf - Market analysis
+  - indicators_research.pdf - Technical indicators
+  - feature selection.pdf - Feature engineering
+  - Model_Evaluation_Report.pdf - Performance validation
+
+### 2. **Interactive Analysis Documentation**
+- **Location**: `ml/notebooks/
+- **Purpose**: Reproducible analytical workflows
+  - Data visualization and baseline models
+  - Time series analysis
+  - Statistical distribution analysis
+  - Regression model development
+  - Forecasting framework implementation
+  - Hyperparameter tuning
+
+### 3. **Component Documentation**
+- **File**: `ml/Readme.md`
+- **Purpose**: Script explanations and usage instructions
+  - Data collection workflows
+  - Model training procedures
+  - Dependencies and setup
+
+### 4. **Dependency Documentation**
+- **Files**: `backend/requirements.txt`, `ml/requirements.txt`
+- **Purpose**: Environment reproducibility and version control
 
 ### ML Model Refinement
 
@@ -148,7 +176,10 @@ From Monday to Wednesday:
 
 ## Plan for Next Week
 
-*...*
+- Train models for zinc and silver.
+- Proceed working with gold model.
+- Refine the database.
+- Update UI according to the feedback.
 
 ## Confirmation of the code's operability
 
