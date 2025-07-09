@@ -174,9 +174,9 @@ From Friday to Monday:
 -  **Nikita Solomennikov** - [Improved figma design, added additional waypoint resolution](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=136-382&t=xR7dRTgYt5kFhtMQ-0), started working with database.
 
 From Monday to Wednesday:
-- **Vladimir Toporkov** - [Implemented the news output from the backend to the screen](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/90)
+- **Vladimir Toporkov** - [Implemented the news output from the backend to the screen](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/90), collected users feedback.
 - **Farit Sharafutdinov** -  [Collected dataset for silver](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/1ef2f30dda886baa012fec33b8d28b264d962a5b).
-- **Ilya Grigorev** - [Added filter and refined models](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8646938b93559dfaba0e765f9edf003c747b0405), [upgraded baseline model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4eeaf1ad02be72ecee0bbcd9c31c2443a4df7d61) and [upgraded LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8f971edb5a9d2f3652d9f943cdb25f1b54b6cb5a)
+- **Ilya Grigorev** - [Added filter and refined models](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8646938b93559dfaba0e765f9edf003c747b0405), [upgraded baseline model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4eeaf1ad02be72ecee0bbcd9c31c2443a4df7d61) and [upgraded LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8f971edb5a9d2f3652d9f943cdb25f1b54b6cb5a).
 - **Rail Sharipov** - [Collected dataset for zinc](none).
 - **Askar Kadyrgulov** - [Updated model in backend](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/727f0d5d4e71f412c8b7948d49417dc5b9607a6a).
 -  **Nikita Solomennikov** - [Calibrated db on the server](none).
@@ -191,5 +191,5 @@ From Monday to Wednesday:
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [✓] In working condition.
+- [✓] Run via docker-compose (or another alternative described in the `README.md`).
