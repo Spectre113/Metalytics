@@ -186,7 +186,7 @@ From Monday to Wednesday:
 - Train models for zinc and silver.
 - Proceed working with gold model.
 - Refine the database.
-- Update UI according to the feedback.
+- Start updating UI according to the feedback.
 
 ## Confirmation of the code's operability
 
