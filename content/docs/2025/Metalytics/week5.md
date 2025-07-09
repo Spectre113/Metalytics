@@ -179,7 +179,7 @@ From Monday to Wednesday:
 - **Ilya Grigorev** - [Added filter and refined models](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8646938b93559dfaba0e765f9edf003c747b0405), [upgraded baseline model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4eeaf1ad02be72ecee0bbcd9c31c2443a4df7d61) and [upgraded LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8f971edb5a9d2f3652d9f943cdb25f1b54b6cb5a).
 - **Rail Sharipov** - [Collected dataset for zinc](none).
 - **Askar Kadyrgulov** - [Updated model in backend](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/727f0d5d4e71f412c8b7948d49417dc5b9607a6a).
--  **Nikita Solomennikov** - [Calibrated db on the server](none).
+-  **Nikita Solomennikov** - [Calibrated db on the server](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/96).
 
 ## Plan for Next Week
 
