@@ -9,11 +9,11 @@ title: "Week #5"
 ### Sessions
 
 During this week team conducted 3 sessions with potential neutral users to get objective observations. The following questions in telegram were asked:
-1. Насколько понятным для вас был интерфейс?
-2. Насколько удобно было пользоваться сервисом в целом?
-3. Насколько вы довольны качеством предсказания/анализа?
-4. Есть ли что-то, что вызвало трудности или осталось непонятным?
-5. Что бы вы улучшили в интерфейсе или функциональности?
+1. How clear was the interface for you?
+2. How convenient was it to use the service as a whole?
+3. How satisfied are you with the quality of the prediction/analysis?
+4. Is there anything that caused difficulties or remained unclear?
+5. What would you improve in the interface or functionality?
 
 **Below are the quotes!!!**
 
@@ -21,11 +21,11 @@ During this week team conducted 3 sessions with potential neutral users to get o
 
 #### **Dmitry Ivanov (Experienced investor):**
 
-1. Интерфейс понятен и достаточно прост. Но есть некоторые моменты, которые я бы поменял для удобства.  
-2. По шкале от 1 до 10 — на 7. Я бы перенес новости над графиком и сделал их в виде постов, которые можно скроллить. Так они не будут перекрывать график и будут удобны для ознакомления.  
-3. Пока не могу оценить предсказание, т.к. не пробовал использовать сигналы системы для реальной торговли. Но их отображение удобно смотреть — это факт.  
-4. Была трудность с переключением типов металлов, но потом объяснили, что пока работает только золото.  
-5. Добавил бы отображение рисков и подтягивание реального графика котировок в режиме онлайн.
+1. The interface is clear and quite simple. But there are some things that I would change for convenience.  
+2. On a scale from 1 to 10 — by 7. I would move the news above the chart and make them into posts that can be scrolled. This way they will not overlap the chart and will be convenient for familiarization.
+3. I cannot evaluate the prediction yet, because I have not tried to use the system's signals for real trading. But their display is convenient to watch — that's a fact.  
+4. There was a difficulty switching the types of metals, but then they explained that so far only gold is working.  
+5. I would add a risk display and a pull-up of the real quotation chart online.
 
 Tg - @Dimas_PhT
 
@@ -33,11 +33,11 @@ Tg - @Dimas_PhT
 
 #### **Eugene Marchuk (Engineer):**
 
-1. Скорее всего, понятен. 🤔  
-2. Интуитивно понятно. 👍  
-3. Как будто, далеко от истины... 🤔  
-4. При попытке нажать на кнопки "серебро" и "цинк" выводятся графики для золота и предыдущая статистика/прогноз. 👎  
-5. Для статистики и прогнозов на неделю, месяц, год стоят плашки "в настоящий момент не доступно". Возможно, стоит разместить такие же плашки на кнопках серебра и цинка. Либо починить графики для серебра и цинка.
+1. Most likely, it is understandable. 🤔  
+2. Intuitive. 👍  
+3. As if it were far from the truth... 🤔  
+4. When you try to click on the "silver" and "zinc" buttons, the charts for gold and the previous statistics/forecast are displayed. 👎  
+5. For statistics and forecasts for the week, month, and year, there are "currently unavailable" bars. It might be worth placing the same bars on the silver and zinc buttons. Or fix the graphs for silver and zinc.
 
 Tg - @eugene_marchuk
 
@@ -45,17 +45,18 @@ Tg - @eugene_marchuk
 
 #### **Vladimir Bazilevich (ML engineer):**
 
-1. Интерфейс весьма простой и понятный.  
-2. Имею опыт работы с QUIK — очень топорный инструмент с точки зрения модности дизайна, но в плане отображения данных с ним тяжело тягаться. Анимации на графике при наведении на точку (особенно когда смотришь несколько соседних) скорее мешают.  
-   Чтобы разобраться в оси времени, приходится читать целиком весь лейбл. В том же QUIK общая часть метки агрегирована — часовые метки и под ними общая дата. Сам по себе график с точки зрения торгов не достаточно информативен — нет цен открытия и закрытия. Свечи более информативны, чем точки с интерполяцией.  
-3. Какой-то тренд показало, но опять же вопросы к лейблам наа оси стоимости.
-4. Сетка недостаточно контрастирует — приходится напрягать глаза, чтобы её рассмотреть. Сетка важна при сопоставлении разных моментов во времени, особенно учитывая дискретность меток времени.  
-5. 
-   1. Новости можно отображать как всплывающие окошки на графике, открывать по клику или ховеру.  
-   2. Мета-информацию по новостям (время публикации, источник) вынес бы в начало заметки.  
-   3. В целом глаза устают от интерфейса.  
-   4. Вещи, которые не готовы, думаю, лучше спрятать — раздражают своим отсутствием.  
-   5. Прокрутка новостей слишком мелкая — сложно заметить сами кнопки, активная область маленькая.
+1. The interface is very simple and intuitive.  
+2. I have experience working with QUIK, which is a very clumsy tool in terms of design fashion, but it's hard to compete with it in terms of data display. Animations on the graph when hovering over a point (especially when looking at several neighboring ones) rather, they interfere.  
+   To understand the time axis, you have to read the entire label. In the same QUIK, the general part of the label is aggregated — the hour markers and the general date under them. The chart itself is not informative enough from the point of view of trading — there are no opening and closing prices. Candlesticks are more informative than points with interpolation.  
+3. It showed some kind of trend, but again, questions for labels on the value axis.
+4. The grid doesn't contrast enough — you have to strain your eyes to see it. The grid is important when comparing different points in time, especially considering the discreteness of the timestamps.  
+
+5.
+   1. News can be displayed as pop-up windows on the chart, opened by click or hover.  
+   2. Meta-information on the news (time of publication, source) would be placed at the beginning of the note.  
+   3. In general, the eyes get tired of the interface.  
+   4. Things that are not ready, I think it's better to hide — they annoy by their absence.  
+   5. The scrolling of the news is too shallow — it is difficult to notice the buttons themselves, the active area is small.
 
 Tg - @vbazilevich
 
@@ -115,6 +116,8 @@ Taking into account the user feedback, the following improvements were made:
 - Interface: users can select metals of interest, explore both historical and predicted graphs, and view parsed news.
 - Backend: users see dynamic graphs where historical prices update automatically, predictions update dynamically, and news updates are reflected timely.
 
+**Ml metrics:**
+
 ### Documentation
 
 *Describe what types of documentation you have in your project, and why exactly are they?*
@@ -128,20 +131,20 @@ Taking into account the user feedback, the following improvements were made:
 ## Individual contribution of each participant
 
 From Friday to Monday:
-- **Vladimir Toporkov** - 
-- **Farit Sharafutdinov** -  
-- **Ilya Grigorev** - 
-- **Rail Sharipov** - 
-- **Askar Kadyrgulov** - 
--  **Nikita Solomennikov** -
+- **Vladimir Toporkov** - [Different resolutions implemented](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/83).
+- **Farit Sharafutdinov** -  [Collected features for silver](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/c963ca8c9cf115c31415c50603dbc81de7f36d9a/ml/data_loader.py).
+- **Ilya Grigorev** - [Improved LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/0fd5aa930fffba07f22c22e0d2449030a6b984e8/ml/lstm_model).
+- **Rail Sharipov** - [Collected features for zinc](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/afcea3ace351e0df63a9946fea6134879f6d8801/ml/reports/Zinc%20features%20report.pdf).
+- **Askar Kadyrgulov** - [Zinc and silver for hitorical data added](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/e5cc392026c8c75ffb24cb06e7131e3125b32c3c/backend/main.py).
+-  **Nikita Solomennikov** - [Improved figma design, added additional waypoint resolution](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=136-382&t=xR7dRTgYt5kFhtMQ-0), started working with database.
 
 From Monday to Wednesday:
-- **Vladimir Toporkov** - 
-- **Farit Sharafutdinov** -  
-- **Ilya Grigorev** - 
-- **Rail Sharipov** - 
-- **Askar Kadyrgulov** - 
--  **Nikita Solomennikov** -
+- **Vladimir Toporkov** - [Implemented the news output from the backend to the screen](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/90)
+- **Farit Sharafutdinov** -  [Collected dataset for silver](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/1ef2f30dda886baa012fec33b8d28b264d962a5b).
+- **Ilya Grigorev** - [Added filter and refined models](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8646938b93559dfaba0e765f9edf003c747b0405), [upgraded baseline model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4eeaf1ad02be72ecee0bbcd9c31c2443a4df7d61) and [upgraded LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8f971edb5a9d2f3652d9f943cdb25f1b54b6cb5a)
+- **Rail Sharipov** - [Collected dataset for zinc](none).
+- **Askar Kadyrgulov** - [Updated model in backend](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/727f0d5d4e71f412c8b7948d49417dc5b9607a6a).
+-  **Nikita Solomennikov** - [Calibrated db on the server](none).
 
 ## Plan for Next Week
 
