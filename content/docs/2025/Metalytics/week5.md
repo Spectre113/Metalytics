@@ -171,7 +171,7 @@ From Friday to Monday:
 - **Ilya Grigorev** - [Improved LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/0fd5aa930fffba07f22c22e0d2449030a6b984e8/ml/lstm_model).
 - **Rail Sharipov** - [Collected features for zinc](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/afcea3ace351e0df63a9946fea6134879f6d8801/ml/reports/Zinc%20features%20report.pdf).
 - **Askar Kadyrgulov** - [Zinc and silver for hitorical data added](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/e5cc392026c8c75ffb24cb06e7131e3125b32c3c/backend/main.py).
--  **Nikita Solomennikov** - [Improved figma design, added additional waypoint resolution](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=136-382&t=xR7dRTgYt5kFhtMQ-0), started working with database.
+-  **Nikita Solomennikov** - [Improved figma design, added additional waypoint resolution](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics?node-id=136-382&t=xR7dRTgYt5kFhtMQ-0), started working with database. [Commit to figma update](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/a7f9f299a4056f0b5472727dc412aa8e84c9bfb1).
 
 From Monday to Wednesday:
 - **Vladimir Toporkov** - [Implemented the news output from the backend to the screen](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/90), collected users feedback.
