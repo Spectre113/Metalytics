@@ -177,7 +177,7 @@ From Monday to Wednesday:
 - **Vladimir Toporkov** - [Implemented the news output from the backend to the screen](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/90), collected users feedback.
 - **Farit Sharafutdinov** -  [Collected dataset for silver](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/1ef2f30dda886baa012fec33b8d28b264d962a5b).
 - **Ilya Grigorev** - [Added filter and refined models](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8646938b93559dfaba0e765f9edf003c747b0405), [upgraded baseline model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4eeaf1ad02be72ecee0bbcd9c31c2443a4df7d61) and [upgraded LSTM model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8f971edb5a9d2f3652d9f943cdb25f1b54b6cb5a).
-- **Rail Sharipov** - [Collected dataset for zinc](none).
+- **Rail Sharipov** - [Zinc scrapping](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/8365ca66d231087b7adadef4c2410684e767ab49).
 - **Askar Kadyrgulov** - [Updated model in backend](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/727f0d5d4e71f412c8b7948d49417dc5b9607a6a).
 -  **Nikita Solomennikov** - [Calibrated db on the server](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/96).
 
