@@ -11,7 +11,7 @@ title: "Week #6"
 - **Deployment**: [http://89.223.121.67:3000/](http://89.223.121.67:3000/).
 - **API Docs**: [Endpoints URL](http://89.223.121.67:8000/), [main.py](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/backend/main.py).
 - **Design**: [Figma design](https://www.figma.com/design/oqrwNbnmT7rRQNl58pdCmO/Metalytics).
-- **Demo**: [Link to demo](http://89.223.121.67:3000/)
+- **Demo**: [Link to demo](http://89.223.121.67:3000/).
 - **Github repository**: [Metalytics repository](https://github.com/IU-Capstone-Project-2025/Metalytics).
 
 ## Final deliverables
@@ -158,9 +158,10 @@ Open frontend/index.html directly in your browser or use a local server (ex. "Li
 - Further improvements in the model predictions (tuning and training).
 - Linting and formatting codebase.
 - Presentation preparation.
+- Proceed working with feedback problems.
 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [✓] In working condition.
+- [✓] Run via docker-compose (or another alternative described in the `README.md`).
