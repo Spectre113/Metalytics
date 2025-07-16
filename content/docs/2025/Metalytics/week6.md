@@ -26,7 +26,7 @@ title: "Week #6"
 - Real-time market intelligence integration
 
 **Key Implemented Features:**
-- LSTM and baseline ML models for Gold and Silver
+- XGBoost and LSTM ML models for Gold and Silver
 - Real-time news parsing from financial sources
 - Responsive web interface with interactive charts
 - PostgreSQL database with RESTful API backend
@@ -34,7 +34,7 @@ title: "Week #6"
 ## Features
 
 **Implemented Features:**
-- **Price Prediction**: Short-term forecasting for Gold and Silver using LSTM and baseline models
+- **Price Prediction**: Short-term forecasting for Gold and Silver using XGBoost and LSTM models
 - **Real-time News Feed**: Automated parsing from metalinfo.ru with source links
 - **Interactive Charts**: Dynamic price visualization with zoom/pan capabilities
 - **Responsive Design**: Adaptive interface for desktop and mobile devices
@@ -52,7 +52,7 @@ title: "Week #6"
 
 **Machine Learning:**
 - TensorFlow/Keras (LSTM neural networks)
-- Scikit-learn (Baseline models)
+- Scikit-learn (General model design)
 - XGBoost (Gradient boosting)
 - Pandas & NumPy (Data processing)
 - TA (Technical indicators)
@@ -144,11 +144,18 @@ Open frontend/index.html directly in your browser or use a local server (ex. "Li
 
 ## Individual contribution of each participant
 
-*...*
+- **Vladimir Toporkov** -
+- **Farit Sharafutdinov** -
+- **Ilya Grigorev** - <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/40d6391010ecfbe6ceff4e8657562591a280961c">updated</a> XGBoost model, <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/e97d6b3454a4a85de64599d2a045cb01e05da4a7">tuned</a> its hyperparameters, and <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/ecea777af51545c0180b99cad3a18e6583093438">dumped</a> trained model.
+- **Rail Sharipov** -
+- **Askar Kadyrgulov** -
+- **Nikita Solomennikov** - 
 
 ## Plan for Next Week
 
-*...*
+- Further improvements in the model predictions (tuning and training).
+- Linting and formatting codebase.
+- Presentation preparation.
 
 ## Confirmation of the code's operability
 
