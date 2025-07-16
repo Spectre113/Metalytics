@@ -146,12 +146,12 @@ Open frontend/index.html directly in your browser or use a local server (ex. "Li
 
 ## Individual contribution of each participant
 
-- **Vladimir Toporkov** - [Made presentantion](https://docs.google.com/presentation/d/1XqyxYhNuF9FN-1GXS2dAr1vA0Jbelf5hi-97UJ7kR4s/edit?usp=sharing), [fixed visual bugs and prepared js for other models](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/108).
+- **Vladimir Toporkov** - [Made presentantion](https://docs.google.com/presentation/d/1XqyxYhNuF9FN-1GXS2dAr1vA0Jbelf5hi-97UJ7kR4s/edit?usp=sharing), [fixed visual bugs and prepared js for other models](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/108), wrote report.
 - **Farit Sharafutdinov** - [Trained silver model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4cf0e2f5ed1078134a9764cf33a9353310af6d0b).
 - **Ilya Grigorev** - <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/40d6391010ecfbe6ceff4e8657562591a280961c">updated</a> XGBoost model, <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/e97d6b3454a4a85de64599d2a045cb01e05da4a7">tuned</a> its hyperparameters, and <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/ecea777af51545c0180b99cad3a18e6583093438">dumped</a> trained model.
-- **Rail Sharipov** - [Collected dataset for zinc]().
+- **Rail Sharipov** - [Collected dataset for zinc](waiting), [trained model](waiting).
 - **Askar Kadyrgulov** - [Configured db on backend side](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/101).
-- **Nikita Solomennikov** - [Updated db structure, added new indexes](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/98)
+- **Nikita Solomennikov** - [Updated db structure, added new indexes](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/98).
 
 ## Plan for Next Week
 
