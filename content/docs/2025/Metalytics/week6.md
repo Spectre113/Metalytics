@@ -150,7 +150,7 @@ Open frontend/index.html directly in your browser or use a local server (ex. "Li
 - **Farit Sharafutdinov** - [Trained silver model](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4cf0e2f5ed1078134a9764cf33a9353310af6d0b).
 - **Ilya Grigorev** - <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/40d6391010ecfbe6ceff4e8657562591a280961c">updated</a> XGBoost model, <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/e97d6b3454a4a85de64599d2a045cb01e05da4a7">tuned</a> its hyperparameters, and <a href="https://github.com/IU-Capstone-Project-2025/Metalytics/commit/ecea777af51545c0180b99cad3a18e6583093438">dumped</a> trained model.
 - **Rail Sharipov** - [Collected dataset for zinc](waiting), [trained model](waiting).
-- **Askar Kadyrgulov** - [Configured db on backend side](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/101), [Updated backend to forecast other metals]()
+- **Askar Kadyrgulov** - [Configured db on backend side](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/101), [Updated backend to forecast other metals](https://github.com/IU-Capstone-Project-2025/Metalytics/commit/4df87e92c2ede616c018ba01dc34705c57206c38)
 - **Nikita Solomennikov** - [Updated db structure, added new indexes](https://github.com/IU-Capstone-Project-2025/Metalytics/pull/98).
 
 ## Plan for Next Week
